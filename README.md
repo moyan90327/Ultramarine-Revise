@@ -62,4 +62,6 @@ Linux/macOS：
 - 基线分支：`fabric-26.1`
 - 基线提交：`992be79f7c3ac53e0f0088af2a00bb73caae5cea`
 
+感谢 **Flechazo098** 提供的技术支持，包括透明方块渲染层注册方案，并感谢其允许本项目进行开源二次修改与发布。
+
 源代码及二进制遵循 BSD-3-Clause。贴图、模型、音频、文本等资源遵循 CC BY-NC 4.0，禁止商业使用。详见 [LICENSE](LICENSE) 和 [ATTRIBUTION.md](ATTRIBUTION.md)。
