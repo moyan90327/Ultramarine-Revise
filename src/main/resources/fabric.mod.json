@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "ultramarine",
+  "version": "${version}",
+  "name": "Ultramarine",
+  "description": "A Chinese Style Minecraft Mod",
+  "authors": [
+    "Soul_Shadow",
+    "LocusAzzurro",
+    "cnlimiter[fabric]",
+    "MikhailTapio[fabric-1.20.1]",
+    "Flechazo[fabric>=1.21]"
+  ],
+  "contributors": [
+    "Arrokoth",
+    "Tapio"
+  ],
+  "contact": {
+    "repo": "https://github.com/DoveCotMC/Ultramarine-Refabricated",
+    "fork": "https://github.com/Flechazo098/Ultramarine-Rekindled"
+  },
+  "license": "Source and binary: BSD-3; Assets: CC-BY-NC 4.0",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.voxelutopia.ultramarine.UltramarineClient"
+    ],
+    "main": [
+      "com.voxelutopia.ultramarine.Ultramarine"
+    ],
+    "fabric-datagen": [
+      "com.voxelutopia.ultramarine.UltramarineDataGenerators"
+    ],
+    "jade": [
+      "com.voxelutopia.ultramarine.client.integration.jade.UltramarineJadePlugin"
+    ],
+    "jei_mod_plugin": [
+      "com.voxelutopia.ultramarine.client.integration.jei.UltramarineJEIPlugin"
+    ]
+  },
+  "mixins": [
+    "ultramarine.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}

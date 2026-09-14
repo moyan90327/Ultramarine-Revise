@@ -1,0 +1,11 @@
+{
+  "id": "ultramarine:large_blue_and_white_porcelain_vase",
+  "type": "ultramarine:composite_smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "primary_ingredient": "ultramarine:large_clay_vase",
+  "result": {
+    "id": "ultramarine:large_blue_and_white_porcelain_vase"
+  },
+  "secondary_ingredient": "ultramarine:blue_and_white_glaze_powder"
+}

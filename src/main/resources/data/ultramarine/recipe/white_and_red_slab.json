@@ -1,0 +1,15 @@
+{
+  "id": "ultramarine:white_and_red_slab",
+  "type": "ultramarine:chisel_table",
+  "colors": [
+    "ultramarine:white_dye_powder",
+    "minecraft:red_dye",
+    "minecraft:red_dye",
+    "ultramarine:white_dye_powder"
+  ],
+  "material": "#minecraft:logs",
+  "result": {
+    "id": "ultramarine:white_and_red_slab"
+  },
+  "template": "ultramarine:architrave_template"
+}

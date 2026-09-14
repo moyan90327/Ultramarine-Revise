@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:dyes/magenta"
+  ],
+  "result": {
+    "count": 4,
+    "id": "ultramarine:magenta_dye_powder"
+  }
+}

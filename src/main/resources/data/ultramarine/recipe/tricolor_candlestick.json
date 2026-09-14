@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "P"
+  ],
+  "key": {
+    "C": "minecraft:white_candle",
+    "P": "ultramarine:porcelain_parts"
+  },
+  "result": {
+    "id": "ultramarine:tricolor_candlestick"
+  }
+}

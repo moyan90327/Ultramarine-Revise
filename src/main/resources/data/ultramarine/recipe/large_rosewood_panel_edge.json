@@ -1,0 +1,8 @@
+{
+  "type": "ultramarine:woodworking",
+  "count": 2,
+  "ingredient": "ultramarine:varnished_rosewood",
+  "result": {
+    "id": "ultramarine:large_rosewood_panel_edge"
+  }
+}

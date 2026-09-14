@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "ultramarine:block/green_carved_fangxin_end",
+    "side": "ultramarine:block/green_and_dark_blue_fangxin_side"
+  }
+}

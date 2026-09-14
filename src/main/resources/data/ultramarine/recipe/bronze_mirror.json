@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "I": "ultramarine:bronze_ingot",
+    "P": "ultramarine:bronze_parts"
+  },
+  "pattern": [
+    "PIP",
+    "CIC"
+  ],
+  "result": {
+    "id": "ultramarine:bronze_mirror"
+  },
+  "show_notification": true
+}

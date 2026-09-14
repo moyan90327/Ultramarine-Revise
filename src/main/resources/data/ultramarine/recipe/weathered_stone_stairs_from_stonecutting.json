@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "ultramarine:weathered_stone",
+  "result": {
+    "id": "ultramarine:weathered_stone_stairs",
+    "count": 1
+  }
+}

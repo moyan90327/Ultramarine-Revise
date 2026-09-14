@@ -1,0 +1,15 @@
+{
+  "id": "ultramarine:medium_su_style_caihua",
+  "type": "ultramarine:chisel_table",
+  "colors": [
+    "ultramarine:yellow_dye_powder",
+    "ultramarine:blue_dye_powder",
+    "minecraft:green_dye",
+    "ultramarine:white_dye_powder"
+  ],
+  "material": "#ultramarine:polished_planks",
+  "result": {
+    "id": "ultramarine:medium_su_style_caihua"
+  },
+  "template": "ultramarine:caihua_template"
+}

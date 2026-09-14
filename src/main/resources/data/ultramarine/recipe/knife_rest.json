@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": "#minecraft:wooden_fences",
+    "P": "#minecraft:planks"
+  },
+  "pattern": [
+    "FFF",
+    "PPP",
+    "FFF"
+  ],
+  "result": {
+    "id": "ultramarine:knife_rest"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB"
+  ],
+  "key": {
+    "B": "ultramarine:cyan_floor_tile"
+  },
+  "result": {
+    "id": "ultramarine:cyan_floor_tile_slab",
+    "count": 6
+  }
+}

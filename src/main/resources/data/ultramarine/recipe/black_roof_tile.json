@@ -1,0 +1,11 @@
+{
+  "id": "ultramarine:black_roof_tile",
+  "type": "ultramarine:composite_smelting",
+  "cookingtime": 20,
+  "experience": 0.05,
+  "primary_ingredient": "ultramarine:unfired_roof_tile",
+  "result": {
+    "id": "ultramarine:black_roof_tile"
+  },
+  "secondary_ingredient": "ultramarine:black_dye_powder"
+}

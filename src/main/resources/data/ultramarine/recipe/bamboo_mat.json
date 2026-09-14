@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BSB",
+    "BSB",
+    "BSB"
+  ],
+  "key": {
+    "B": "minecraft:bamboo",
+    "S": "minecraft:string"
+  },
+  "result": {
+    "id": "ultramarine:bamboo_mat",
+    "count": 4
+  }
+}

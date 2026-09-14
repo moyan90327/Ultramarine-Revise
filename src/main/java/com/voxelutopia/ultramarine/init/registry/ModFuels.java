@@ -1,0 +1,17 @@
+package com.voxelutopia.ultramarine.init.registry;
+
+import com.voxelutopia.ultramarine.init.data.ModItemTags;
+import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
+
+public final class ModFuels {
+    private ModFuels() {
+    }
+
+    public static void registerFuels() {
+        FuelRegistryEvents.BUILD.register((builder, context) -> {
+            builder.add(ModItemTags.POLISHED_PLANKS, 200);
+            builder.add(ModItems.WOODEN_FRAME, 200);
+        });
+    }
+}
+

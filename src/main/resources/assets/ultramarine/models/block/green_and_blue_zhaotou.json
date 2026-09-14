@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "minecraft:block/green_wool",
+    "side": "ultramarine:block/green_and_blue_zhaotou_side",
+    "top": "minecraft:block/blue_wool"
+  }
+}

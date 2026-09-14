@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": "minecraft:red_wool",
+    "S": "ultramarine:silk",
+    "Y": "minecraft:yellow_wool"
+  },
+  "pattern": [
+    "SSS",
+    "YRY"
+  ],
+  "result": {
+    "id": "ultramarine:long_pillow"
+  },
+  "show_notification": true
+}

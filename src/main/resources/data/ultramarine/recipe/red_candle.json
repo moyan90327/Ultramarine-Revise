@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "P"
+  ],
+  "key": {
+    "C": "minecraft:red_candle",
+    "P": "ultramarine:wooden_parts"
+  },
+  "result": {
+    "id": "ultramarine:red_candle"
+  }
+}

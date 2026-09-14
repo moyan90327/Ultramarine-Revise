@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "ultramarine:black_floor_tiles",
+    "minecraft:moss_block"
+  ],
+  "result": {
+    "id": "ultramarine:black_floor_tiles_little_mossy"
+  }
+}

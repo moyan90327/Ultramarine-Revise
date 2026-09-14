@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": "#minecraft:logs",
+    "P": "#minecraft:planks",
+    "R": "ultramarine:small_red_lantern"
+  },
+  "pattern": [
+    "PP",
+    "LR",
+    "L "
+  ],
+  "result": {
+    "id": "ultramarine:red_lantern_streetlight"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ultramarine:yuan_nianyuzhuang_zhaotou_connection",
+  "type": "ultramarine:chisel_table",
+  "colors": [
+    "minecraft:green_dye",
+    "minecraft:blue_dye",
+    "minecraft:blue_dye",
+    "minecraft:green_dye"
+  ],
+  "material": "#minecraft:logs",
+  "result": {
+    "id": "ultramarine:yuan_nianyuzhuang_zhaotou_connection"
+  },
+  "template": "ultramarine:zhaotou_template"
+}

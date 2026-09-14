@@ -1,0 +1,8 @@
+{
+  "type": "ultramarine:woodworking",
+  "count": 1,
+  "ingredient": "#minecraft:jungle_logs",
+  "result": {
+    "id": "ultramarine:jungle_bracket"
+  }
+}

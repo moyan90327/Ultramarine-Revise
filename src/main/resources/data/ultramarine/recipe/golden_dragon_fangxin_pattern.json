@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "ultramarine:blue_fangxin_pattern",
+    "E": "ultramarine:blue_fangxin_pattern_edge",
+    "G": "ultramarine:gold_dye_powder"
+  },
+  "pattern": [
+    "GGG",
+    "ECE"
+  ],
+  "result": {
+    "id": "ultramarine:golden_dragon_fangxin_pattern"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": "ultramarine:green_weathered_bricks",
+  "result": {
+    "id": "ultramarine:green_weathered_brick_slab"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:dyes/cyan"
+  ],
+  "result": {
+    "count": 4,
+    "id": "ultramarine:cyan_dye_powder"
+  }
+}

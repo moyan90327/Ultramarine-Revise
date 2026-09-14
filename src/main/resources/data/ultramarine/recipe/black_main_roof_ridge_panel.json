@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": "ultramarine:black_main_roof_ridge_slab",
+  "result": {
+    "id": "ultramarine:black_main_roof_ridge_panel"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:cobblestone",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:andesite"
+  ],
+  "result": {
+    "id": "ultramarine:variegated_rocks",
+    "count": 4
+  }
+}

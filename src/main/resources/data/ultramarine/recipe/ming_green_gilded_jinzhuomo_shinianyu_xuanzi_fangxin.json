@@ -1,0 +1,15 @@
+{
+  "id": "ultramarine:ming_green_gilded_jinzhuomo_shinianyu_xuanzi_fangxin",
+  "type": "ultramarine:chisel_table",
+  "colors": [
+    "minecraft:blue_dye",
+    "minecraft:green_dye",
+    "ultramarine:gold_dye_powder",
+    "ultramarine:light_blue_dye_powder"
+  ],
+  "material": "#minecraft:logs",
+  "result": {
+    "id": "ultramarine:ming_green_gilded_jinzhuomo_shinianyu_xuanzi_fangxin"
+  },
+  "template": "ultramarine:fangxin_template"
+}

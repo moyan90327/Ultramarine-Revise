@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "ultramarine:black_roof_ridge_connection",
+    "T": "ultramarine:black_roof_tile"
+  },
+  "pattern": [
+    "TTT",
+    "RRR"
+  ],
+  "result": {
+    "count": 3,
+    "id": "ultramarine:black_main_roof_ridge_connection"
+  },
+  "show_notification": true
+}

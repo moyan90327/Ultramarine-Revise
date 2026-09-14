@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "G": "ultramarine:gold_parts",
+    "O": "minecraft:stripped_dark_oak_wood"
+  },
+  "pattern": [
+    " G ",
+    "GOG",
+    " G "
+  ],
+  "result": {
+    "id": "ultramarine:gilded_dark_oak"
+  },
+  "show_notification": true
+}

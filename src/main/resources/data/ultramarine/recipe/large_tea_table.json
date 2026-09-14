@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": "ultramarine:wooden_frame",
+    "P": "minecraft:spruce_planks",
+    "S": "minecraft:stick",
+    "W": "ultramarine:polished_spruce_plank"
+  },
+  "pattern": [
+    "WWW",
+    "PPP",
+    "SFS"
+  ],
+  "result": {
+    "id": "ultramarine:large_tea_table"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": "ultramarine:weathered_stone"
+  },
+  "result": {
+    "id": "ultramarine:weathered_stone_stairs",
+    "count": 4
+  }
+}

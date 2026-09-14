@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "minecraft:brown_dye",
+    "P": "minecraft:flower_pot",
+    "S": "minecraft:spruce_sapling"
+  },
+  "pattern": [
+    "S ",
+    "PD"
+  ],
+  "result": {
+    "id": "ultramarine:small_greeting_pine_bonsai"
+  },
+  "show_notification": true
+}

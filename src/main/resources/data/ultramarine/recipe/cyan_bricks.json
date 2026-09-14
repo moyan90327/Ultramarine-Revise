@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": "ultramarine:cyan_brick"
+  },
+  "result": {
+    "id": "ultramarine:cyan_bricks"
+  }
+}

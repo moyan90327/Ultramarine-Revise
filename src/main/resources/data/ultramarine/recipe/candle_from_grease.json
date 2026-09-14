@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "ultramarine:grease",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    "S",
+    "G"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:candle"
+  }
+}

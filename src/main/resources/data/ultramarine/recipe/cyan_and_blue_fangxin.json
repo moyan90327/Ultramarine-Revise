@@ -1,0 +1,15 @@
+{
+  "id": "ultramarine:cyan_and_blue_fangxin",
+  "type": "ultramarine:chisel_table",
+  "colors": [
+    "minecraft:cyan_dye",
+    "minecraft:blue_dye",
+    "ultramarine:green_dye_powder",
+    "ultramarine:yellow_dye_powder"
+  ],
+  "material": "#minecraft:logs",
+  "result": {
+    "id": "ultramarine:cyan_and_blue_fangxin"
+  },
+  "template": "ultramarine:fangxin_template"
+}

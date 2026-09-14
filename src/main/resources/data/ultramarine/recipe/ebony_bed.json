@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": "ultramarine:wooden_frame",
+    "G": "ultramarine:gilded_dark_oak",
+    "S": "ultramarine:silk",
+    "W": "ultramarine:polished_oak_plank"
+  },
+  "pattern": [
+    "FSF",
+    "GWG",
+    "WFW"
+  ],
+  "result": {
+    "id": "ultramarine:ebony_bed"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": "ultramarine:raw_cobalt",
+  "result": {
+    "id": "ultramarine:cobalt_dust"
+  }
+}

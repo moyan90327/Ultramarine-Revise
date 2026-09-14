@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "ultramarine:block/green_carved_wood",
+    "side": "ultramarine:block/green_carved_wooden_slab_side",
+    "top": "ultramarine:block/green_carved_wood"
+  }
+}

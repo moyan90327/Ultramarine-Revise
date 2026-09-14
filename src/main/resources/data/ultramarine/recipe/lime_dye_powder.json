@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:dyes/lime"
+  ],
+  "result": {
+    "count": 4,
+    "id": "ultramarine:lime_dye_powder"
+  }
+}

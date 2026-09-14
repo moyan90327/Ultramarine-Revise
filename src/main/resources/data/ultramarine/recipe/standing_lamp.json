@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XCX",
+    "PFP",
+    " W "
+  ],
+  "key": {
+    "X": "ultramarine:xuan_paper",
+    "C": "#minecraft:candles",
+    "W": "#minecraft:planks",
+    "F": "ultramarine:wooden_frame",
+    "P": "ultramarine:wooden_parts"
+  },
+  "result": {
+    "id": "ultramarine:standing_lamp"
+  }
+}

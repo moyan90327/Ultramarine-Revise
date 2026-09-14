@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": "minecraft:clay",
+    "o": "minecraft:clay_ball"
+  },
+  "pattern": [
+    "o",
+    "o",
+    "O"
+  ],
+  "result": {
+    "id": "ultramarine:tall_clay_vase"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "ultramarine:block/plaque",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "ultramarine:block/plaque",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "ultramarine:block/plaque"
+    },
+    "facing=west": {
+      "model": "ultramarine:block/plaque",
+      "y": 90
+    }
+  }
+}

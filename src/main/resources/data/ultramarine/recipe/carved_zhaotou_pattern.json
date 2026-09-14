@@ -1,0 +1,13 @@
+{
+  "id": "ultramarine:carved_zhaotou_pattern",
+  "type": "ultramarine:chisel_table",
+  "colors": [
+    "minecraft:yellow_dye",
+    "minecraft:white_dye"
+  ],
+  "material": "#ultramarine:polished_planks",
+  "result": {
+    "id": "ultramarine:carved_zhaotou_pattern"
+  },
+  "template": "ultramarine:zhaotou_template"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "ultramarine:chessboard",
+    "F": "ultramarine:wooden_frame",
+    "P": "#minecraft:planks",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    " B ",
+    "PPP",
+    "SFS"
+  ],
+  "result": {
+    "id": "ultramarine:chess_table"
+  },
+  "show_notification": true
+}

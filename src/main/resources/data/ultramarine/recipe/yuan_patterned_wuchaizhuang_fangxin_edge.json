@@ -1,0 +1,15 @@
+{
+  "id": "ultramarine:yuan_patterned_wuchaizhuang_fangxin_edge",
+  "type": "ultramarine:chisel_table",
+  "colors": [
+    "ultramarine:red_dye_powder",
+    "minecraft:blue_dye",
+    "minecraft:green_dye",
+    "ultramarine:orange_dye_powder"
+  ],
+  "material": "#minecraft:logs",
+  "result": {
+    "id": "ultramarine:yuan_patterned_wuchaizhuang_fangxin_edge"
+  },
+  "template": "ultramarine:fangxin_edge_template"
+}

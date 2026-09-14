@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.voxelutopia.ultramarine.init.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlockBehaviourMixin",
+    "BlockItemMixin",
+    "ItemEntityMixin",
+    "LevelMixin",
+    "PlayerListMixin",
+    "RecipeAccessMixin",
+    "RecipeManagerMixin",
+    "ServerLevelMixin"
+  ],
+  "client": [
+    "ClientRecipeContainerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

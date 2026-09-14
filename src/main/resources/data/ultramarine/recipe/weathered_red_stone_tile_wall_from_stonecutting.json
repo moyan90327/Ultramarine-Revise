@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": "ultramarine:weathered_red_stone_tile",
+  "result": {
+    "id": "ultramarine:weathered_red_stone_tile_wall"
+  }
+}

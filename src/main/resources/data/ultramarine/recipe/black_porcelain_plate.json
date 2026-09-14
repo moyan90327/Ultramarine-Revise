@@ -1,0 +1,11 @@
+{
+  "id": "ultramarine:black_porcelain_plate",
+  "type": "ultramarine:composite_smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "primary_ingredient": "ultramarine:clay_plate",
+  "result": {
+    "id": "ultramarine:black_porcelain_plate"
+  },
+  "secondary_ingredient": "minecraft:black_dye"
+}

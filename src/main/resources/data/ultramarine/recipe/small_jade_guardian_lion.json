@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "J": "ultramarine:jade",
+    "L": "ultramarine:small_stone_guardian_lion",
+    "P": "ultramarine:jade_parts"
+  },
+  "pattern": [
+    "PJP",
+    "JLJ",
+    "PJP"
+  ],
+  "result": {
+    "id": "ultramarine:small_jade_guardian_lion"
+  },
+  "show_notification": true
+}

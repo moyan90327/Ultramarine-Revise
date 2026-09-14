@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB"
+  ],
+  "key": {
+    "B": "ultramarine:rosewood_planks"
+  },
+  "result": {
+    "id": "ultramarine:rosewood_slab",
+    "count": 6
+  }
+}

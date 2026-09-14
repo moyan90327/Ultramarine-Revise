@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": "ultramarine:wooden_frame",
+    "L": "ultramarine:rosewood_planks",
+    "P": "ultramarine:porcelain_parts",
+    "S": "ultramarine:polished_rosewood_plank",
+    "W": "ultramarine:wooden_parts"
+  },
+  "pattern": [
+    " P ",
+    "WSW",
+    "LFL"
+  ],
+  "result": {
+    "id": "ultramarine:porcelain_inlaid_table"
+  },
+  "show_notification": true
+}

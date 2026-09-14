@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "ultramarine:green_glazed_tiles",
+    "I": "minecraft:iron_bars"
+  },
+  "pattern": [
+    "GGG",
+    "GIG",
+    "GGG"
+  ],
+  "result": {
+    "id": "ultramarine:glazed_tile_grid_window"
+  },
+  "show_notification": true
+}

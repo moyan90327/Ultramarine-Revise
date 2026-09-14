@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=double": {
+      "model": "ultramarine:block/cabbage_basket_double"
+    },
+    "type=single": {
+      "model": "ultramarine:block/cabbage_basket"
+    }
+  }
+}

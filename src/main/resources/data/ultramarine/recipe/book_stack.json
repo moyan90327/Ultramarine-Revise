@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:book",
+    "D": "ultramarine:blue_dye_powder"
+  },
+  "pattern": [
+    "BD",
+    "BD",
+    "BD"
+  ],
+  "result": {
+    "id": "ultramarine:book_stack"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:bamboo",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    "BBB",
+    "SSS",
+    "BBB"
+  ],
+  "result": {
+    "id": "ultramarine:bamboo_curtain"
+  },
+  "show_notification": true
+}

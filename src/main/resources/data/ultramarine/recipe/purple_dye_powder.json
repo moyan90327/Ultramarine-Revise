@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:dyes/purple"
+  ],
+  "result": {
+    "count": 4,
+    "id": "ultramarine:purple_dye_powder"
+  }
+}

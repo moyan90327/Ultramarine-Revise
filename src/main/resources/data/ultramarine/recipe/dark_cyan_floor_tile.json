@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "ultramarine:cyan_floor_tile",
+    "minecraft:black_dye"
+  ],
+  "result": {
+    "id": "ultramarine:dark_cyan_floor_tile"
+  }
+}

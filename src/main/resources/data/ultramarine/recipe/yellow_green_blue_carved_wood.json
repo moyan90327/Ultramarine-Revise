@@ -1,0 +1,14 @@
+{
+  "id": "ultramarine:yellow_green_blue_carved_wood",
+  "type": "ultramarine:chisel_table",
+  "colors": [
+    "ultramarine:yellow_dye_powder",
+    "minecraft:green_dye",
+    "minecraft:blue_dye"
+  ],
+  "material": "#minecraft:logs",
+  "result": {
+    "id": "ultramarine:yellow_green_blue_carved_wood"
+  },
+  "template": "ultramarine:carved_wood_template"
+}

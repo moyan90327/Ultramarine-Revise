@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "ultramarine:block/small_leaf_pile",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "ultramarine:block/small_leaf_pile",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "ultramarine:block/small_leaf_pile"
+    },
+    "facing=west": {
+      "model": "ultramarine:block/small_leaf_pile",
+      "y": 90
+    }
+  }
+}

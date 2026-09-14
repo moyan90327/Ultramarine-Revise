@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": "ultramarine:wooden_frame",
+    "P": "ultramarine:wooden_parts",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "SSS",
+    "S S",
+    "PFP"
+  ],
+  "result": {
+    "id": "ultramarine:brush_tools"
+  },
+  "show_notification": true
+}

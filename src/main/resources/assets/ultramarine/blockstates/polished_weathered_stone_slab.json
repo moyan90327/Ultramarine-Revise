@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ultramarine:block/polished_weathered_stone_slab"
+    },
+    "type=double": {
+      "model": "ultramarine:block/polished_weathered_stone"
+    },
+    "type=top": {
+      "model": "ultramarine:block/polished_weathered_stone_slab_top"
+    }
+  }
+}

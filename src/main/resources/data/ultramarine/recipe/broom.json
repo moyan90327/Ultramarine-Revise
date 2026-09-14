@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": "minecraft:hay_block",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "S",
+    "H"
+  ],
+  "result": {
+    "id": "ultramarine:broom"
+  },
+  "show_notification": true
+}

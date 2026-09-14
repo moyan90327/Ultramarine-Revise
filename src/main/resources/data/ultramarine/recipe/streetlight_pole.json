@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": "#minecraft:logs",
+    "P": "#minecraft:planks"
+  },
+  "pattern": [
+    "P",
+    "L",
+    "L"
+  ],
+  "result": {
+    "id": "ultramarine:streetlight_pole"
+  },
+  "show_notification": true
+}

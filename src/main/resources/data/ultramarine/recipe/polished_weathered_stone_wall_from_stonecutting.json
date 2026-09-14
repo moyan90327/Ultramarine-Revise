@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "ultramarine:polished_weathered_stone",
+  "result": {
+    "id": "ultramarine:polished_weathered_stone_wall",
+    "count": 1
+  }
+}

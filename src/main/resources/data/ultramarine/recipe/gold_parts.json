@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": "minecraft:gold_ingot",
+  "result": {
+    "id": "ultramarine:gold_parts"
+  }
+}

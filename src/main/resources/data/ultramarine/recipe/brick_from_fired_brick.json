@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "ultramarine:fired_brick"
+  ],
+  "result": {
+    "id": "minecraft:brick"
+  }
+}

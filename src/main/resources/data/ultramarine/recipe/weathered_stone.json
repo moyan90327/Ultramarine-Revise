@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:stone",
+    "minecraft:gravel"
+  ],
+  "result": {
+    "id": "ultramarine:weathered_stone",
+    "count": 2
+  }
+}

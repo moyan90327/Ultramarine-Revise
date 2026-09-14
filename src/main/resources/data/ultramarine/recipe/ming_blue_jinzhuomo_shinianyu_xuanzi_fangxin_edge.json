@@ -1,0 +1,15 @@
+{
+  "id": "ultramarine:ming_blue_jinzhuomo_shinianyu_xuanzi_fangxin_edge",
+  "type": "ultramarine:chisel_table",
+  "colors": [
+    "ultramarine:yellow_dye_powder",
+    "minecraft:green_dye",
+    "minecraft:blue_dye",
+    "minecraft:blue_dye"
+  ],
+  "material": "#minecraft:logs",
+  "result": {
+    "id": "ultramarine:ming_blue_jinzhuomo_shinianyu_xuanzi_fangxin_edge"
+  },
+  "template": "ultramarine:fangxin_edge_template"
+}

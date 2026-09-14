@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "ultramarine:block/yellow_roof_ridge_upper_bottom",
+    "side": "ultramarine:block/yellow_roof_ridge_upper_slab_side",
+    "top": "ultramarine:block/yellow_roof_ridge_upper_top"
+  }
+}

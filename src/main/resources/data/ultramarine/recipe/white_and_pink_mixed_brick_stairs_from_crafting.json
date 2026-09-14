@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": "ultramarine:white_and_pink_mixed_bricks"
+  },
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "result": {
+    "count": 4,
+    "id": "ultramarine:white_and_pink_mixed_brick_stairs"
+  },
+  "show_notification": true
+}

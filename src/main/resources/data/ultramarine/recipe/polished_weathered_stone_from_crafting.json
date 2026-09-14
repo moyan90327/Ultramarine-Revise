@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": "ultramarine:weathered_stone"
+  },
+  "result": {
+    "id": "ultramarine:polished_weathered_stone",
+    "count": 4
+  }
+}

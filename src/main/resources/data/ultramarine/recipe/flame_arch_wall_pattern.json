@@ -1,0 +1,15 @@
+{
+  "id": "ultramarine:flame_arch_wall_pattern",
+  "type": "ultramarine:chisel_table",
+  "colors": [
+    "minecraft:orange_dye",
+    "ultramarine:white_dye_powder",
+    "ultramarine:blue_dye_powder",
+    "ultramarine:green_dye_powder"
+  ],
+  "material": "#ultramarine:polished_planks",
+  "result": {
+    "id": "ultramarine:flame_arch_wall_pattern"
+  },
+  "template": "ultramarine:caihua_template"
+}

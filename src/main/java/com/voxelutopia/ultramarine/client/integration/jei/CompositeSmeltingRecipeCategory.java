@@ -1,0 +1,125 @@
+package com.voxelutopia.ultramarine.client.integration.jei;
+
+import com.voxelutopia.ultramarine.Ultramarine;
+import com.voxelutopia.ultramarine.common.recipe.CompositeSmeltingRecipe;
+import com.voxelutopia.ultramarine.init.registry.ModBlocks;
+import mezz.jei.api.constants.VanillaTypes;
+import mezz.jei.api.gui.builder.IRecipeLayoutBuilder;
+import mezz.jei.api.gui.drawable.IDrawable;
+import mezz.jei.api.gui.ingredient.IRecipeSlotsView;
+import mezz.jei.api.gui.placement.HorizontalAlignment;
+import mezz.jei.api.gui.placement.VerticalAlignment;
+import mezz.jei.api.gui.widgets.IRecipeExtrasBuilder;
+import mezz.jei.api.helpers.IGuiHelper;
+import mezz.jei.api.recipe.IFocusGroup;
+import mezz.jei.api.recipe.category.IRecipeCategory;
+import mezz.jei.api.recipe.types.IRecipeType;
+import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.Identifier;
+import net.minecraft.world.item.ItemStack;
+import org.jetbrains.annotations.NotNull;
+
+import static mezz.jei.api.recipe.RecipeIngredientRole.INPUT;
+import static mezz.jei.api.recipe.RecipeIngredientRole.OUTPUT;
+
+public class CompositeSmeltingRecipeCategory implements IRecipeCategory<CompositeSmeltingRecipe> {
+
+    public static final Identifier UID = Identifier.fromNamespaceAndPath(Ultramarine.MOD_ID, "composite_smelting");
+
+    public static final IRecipeType<CompositeSmeltingRecipe> COMPOSITE_SMELTING_RECIPE_TYPE =
+            IRecipeType.create(UID, CompositeSmeltingRecipe.class);
+
+    public static final Identifier TEXTURE_GUI = Identifier.fromNamespaceAndPath(Ultramarine.MOD_ID, "textures/gui/brick_kiln.png");
+
+    private final IDrawable background;
+    private final int regularCookTime;
+    private final IDrawable icon;
+    private final Component localizedName;
+
+    public CompositeSmeltingRecipeCategory(IGuiHelper guiHelper) {
+        this.background = guiHelper.createDrawable(TEXTURE_GUI, 45, 16, 92, 54);
+        this.regularCookTime = 200;
+        this.icon = guiHelper.createDrawableIngredient(VanillaTypes.ITEM_STACK, new ItemStack(ModBlocks.BRICK_KILN));
+        this.localizedName = Component.translatable("gui.jei.category.composite_smelting");
+    }
+
+    @Override
+    public IDrawable getIcon() {
+        return icon;
+    }
+
+    @Override
+    public int getWidth() {
+        return background.getWidth();
+    }
+
+    @Override
+    public int getHeight() {
+        return background.getHeight();
+    }
+
+    @Override
+    public void draw(CompositeSmeltingRecipe recipe, IRecipeSlotsView recipeSlotsView, GuiGraphics guiGraphics, double mouseX, double mouseY) {
+        background.draw(guiGraphics);
+    }
+
+
+    @Override
+    public void createRecipeExtras(@NotNull IRecipeExtrasBuilder builder, CompositeSmeltingRecipe recipe, @NotNull IFocusGroup focuses) {
+        int cookTime = recipe.getCookingTime();
+        if (cookTime <= 0) {
+            cookTime = this.regularCookTime;
+        }
+
+        builder.addAnimatedRecipeArrow(cookTime).setPosition(34, 17);
+        builder.addAnimatedRecipeFlame(300).setPosition(11, 20);
+        this.addExperience(builder, recipe);
+        this.addCookTime(builder, recipe);
+    }
+
+    protected void addExperience(IRecipeExtrasBuilder builder, CompositeSmeltingRecipe recipe) {
+        float experience = recipe.getExp();
+        if (experience > 0.0F) {
+            Component experienceString = Component.translatable("gui.jei.category.smelting.experience", experience);
+            builder.addText(experienceString, this.getWidth() - 20, 10).setPosition(0, 0, this.getWidth(), this.getHeight(), HorizontalAlignment.RIGHT, VerticalAlignment.TOP).setTextAlignment(HorizontalAlignment.RIGHT).setColor(-8355712);
+        }
+
+    }
+
+    protected void addCookTime(IRecipeExtrasBuilder builder, CompositeSmeltingRecipe recipe) {
+        int cookTime = recipe.getCookingTime();
+        if (cookTime <= 0) {
+            cookTime = this.regularCookTime;
+        }
+
+        if (cookTime > 0) {
+            int cookTimeSeconds = cookTime / 20;
+            Component timeString = Component.translatable("gui.jei.category.smelting.time.seconds", cookTimeSeconds);
+            builder.addText(timeString, this.getWidth() - 20, 10).setPosition(0, 0, this.getWidth(), this.getHeight(), HorizontalAlignment.RIGHT, VerticalAlignment.BOTTOM).setTextAlignment(HorizontalAlignment.RIGHT).setTextAlignment(VerticalAlignment.BOTTOM).setColor(-8355712);
+        }
+
+    }
+
+    @Override
+    public @NotNull Component getTitle() {
+        return localizedName;
+    }
+
+    @Override
+    public void setRecipe(IRecipeLayoutBuilder builder, CompositeSmeltingRecipe recipe, @NotNull IFocusGroup focuses) {
+        builder.addSlot(INPUT, 1, 1)
+                .add(recipe.getPrimaryIngredient());
+
+        builder.addSlot(INPUT, 21, 1)
+                .add(recipe.getSecondaryIngredient());
+
+        builder.addSlot(OUTPUT, 71, 19)
+                .add(recipe.getResultItem());
+    }
+
+    @Override
+    public @NotNull IRecipeType<CompositeSmeltingRecipe> getRecipeType() {
+        return COMPOSITE_SMELTING_RECIPE_TYPE;
+    }
+}

@@ -1,0 +1,117 @@
+package com.voxelutopia.ultramarine.common.block;
+
+import com.voxelutopia.ultramarine.common.tile.ContainerDecorativeBlockEntity;
+import com.voxelutopia.ultramarine.init.data.ContainerType;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.core.component.DataComponentMap;
+import net.minecraft.core.component.DataComponentPatch;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.world.Container;
+import net.minecraft.world.Containers;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.phys.BlockHitResult;
+
+public class ContainerDecorativeBlock extends DecorativeBlock implements EntityBlock {
+
+    protected final ContainerType containerType;
+    protected final int rowCount;
+
+    public ContainerDecorativeBlock(Builder builder) {
+        super(builder);
+        this.containerType = builder.containerType;
+        this.rowCount = builder.rowCount;
+    }
+
+    public static Builder with(BaseBlockProperty property) {
+        return new Builder(property);
+    }
+
+    @Override
+    public void setPlacedBy(Level worldIn, BlockPos posIn, BlockState stateIn, LivingEntity entityIn, ItemStack stackIn) {
+        if (stackIn.get(DataComponents.CUSTOM_NAME) != null) {
+            BlockEntity blockEntity = worldIn.getBlockEntity(posIn);
+            if (blockEntity instanceof ContainerDecorativeBlockEntity containerBlockEntity) {
+                containerBlockEntity.applyComponents(
+                        DataComponentMap.builder()
+                                .set(DataComponents.CUSTOM_NAME, stackIn.get(DataComponents.CUSTOM_NAME))
+                                .build(),
+                        DataComponentPatch.EMPTY
+                );
+                containerBlockEntity.setChanged();
+            }
+        }
+    }
+
+    @Override
+    public boolean hasAnalogOutputSignal(BlockState stateIn) {
+        return true;
+    }
+
+    @Override
+    public int getAnalogOutputSignal(BlockState pState, Level pLevel, BlockPos pPos, Direction pDirection) {
+        return AbstractContainerMenu.getRedstoneSignalFromBlockEntity(pLevel.getBlockEntity(pPos));
+    }
+
+    @Override
+    public BlockEntity newBlockEntity(BlockPos pPos, BlockState state) {
+        return new ContainerDecorativeBlockEntity(pPos, state, rowCount);
+    }
+
+    @Override
+    public InteractionResult useWithoutItem(BlockState state, Level worldIn, BlockPos pos, Player player, BlockHitResult rayIn) {
+        if (worldIn.isClientSide()) {
+            return InteractionResult.SUCCESS;
+        } else {
+            BlockEntity blockEntity = worldIn.getBlockEntity(pos);
+            if (blockEntity instanceof ContainerDecorativeBlockEntity container) {
+                player.openMenu(container);
+            }
+            return InteractionResult.CONSUME;
+        }
+    }
+
+    @Override
+    protected void affectNeighborsAfterRemoval(BlockState state, net.minecraft.server.level.ServerLevel level, BlockPos pos, boolean movedByPiston) {
+        BlockEntity blockEntity = level.getBlockEntity(pos);
+        if (blockEntity instanceof Container container) {
+            Containers.dropContents(level, pos, container);
+            level.updateNeighbourForOutputSignal(pos, this);
+        }
+
+        super.affectNeighborsAfterRemoval(state, level, pos, movedByPiston);
+    }
+
+    public ContainerType getContainerType() {
+        return this.containerType;
+    }
+
+    public static class Builder extends DecorativeBlock.Builder {
+
+        private ContainerType containerType = ContainerType.COMMON_REGULAR;
+        private int rowCount = 3;
+
+        public Builder(BaseBlockProperty property) {
+            super(property);
+        }
+
+        public Builder content(ContainerType type) {
+            this.containerType = type;
+            this.rowCount = type.getRows();
+            return this;
+        }
+
+        public ContainerDecorativeBlock build() {
+            return new ContainerDecorativeBlock(this);
+        }
+    }
+
+}
