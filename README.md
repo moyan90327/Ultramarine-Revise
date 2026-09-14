@@ -1,4 +1,4 @@
-# Ultramarine Rekindled for Minecraft 1.21.11
+# Ultramarine Revise for Minecraft 1.21.11
 
 这是基于 [Ultramarine-Rekindled](https://github.com/Flechazo098/Ultramarine-Rekindled) `fabric-26.1` 分支移植到 Minecraft 1.21.11 的 Fabric 版本。
 
